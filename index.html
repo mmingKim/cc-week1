@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Day with My Friends</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- The cover of my diary -->
+    <div id="top" class="cover">
+      <p class="small-title">ONE BUSY DAY · NEW YORK CITY</p>
+
+      <h1>A Day with<br><span>My Friends</span></h1>
+
+      <p class="introduction">
+        This is a diary about a day I spent with my friends.
+      </p>
+
+      <img
+        id="cover-photo"
+        src="images/wangzai.jpg"
+        alt="Wangzai, Vivian's red and white fish, in his new home"
+      >
+      <p id="cover-note">This is Vivian's new fish, Wangzai.</p>
+    </div>
+
+    <!-- These links lead to different parts of the day -->
+    <div class="menu">
+      <a href="#morning">MORNING</a>
+      <a href="#fish-store">FISH STORE</a>
+      <a href="#dumbo">DUMBO</a>
+      <a href="#night">NIGHT</a>
+    </div>
+
+    <main>
+      <!-- Morning -->
+      <div id="morning" class="diary-entry">
+        <p class="time">MORNING</p>
+        <h2>An early morning.</h2>
+
+        <p class="entry-text">
+          My friends and I woke up very early. We decided to go out for
+          dim sum. The weather was nice, and the city was already busy.
+        </p>
+
+        <img
+          class="wide-photo"
+          src="images/morning.JPG"
+          alt="A bright morning street in Chinatown"
+        >
+        <p class="photo-note">On our way to dim sum.</p>
+      </div>
+
+      <!-- Looking for Vivian's new fish -->
+      <div id="fish-store" class="diary-entry">
+        <p class="time">BEFORE NOON</p>
+        <h2>We went to see the fish.</h2>
+
+        <p class="entry-text">
+          After breakfast, we went to a fish store because Vivian wanted
+          a new fish. There were many fish in the store. These two were
+          my favorites.
+        </p>
+
+        <div class="fish-collage">
+          <div id="my-choice" class="choice-card">
+            <img src="images/my-pick.JPG" alt="My favorite blue and white fish">
+            <h3>MY PICK 01</h3>
+            <p>I loved this blue one.</p>
+          </div>
+
+          <div id="my-choice-2" class="choice-card">
+            <img src="images/vivian-pick.JPG" alt="My second favorite fish">
+            <h3>MY PICK 02</h3>
+            <p>I also liked this colorful one.</p>
+          </div>
+        </div>
+
+        <!-- The details tag makes a part of the story clickable -->
+        <details>
+          <summary>Which fish did Vivian finally bring home?</summary>
+          <div class="answer">
+            <img
+              id="wangzai-photo"
+              src="images/wangzai.jpg"
+              alt="Wangzai in his new home"
+            >
+            <div class="answer-text">
+              <p class="small-title">MEET</p>
+              <h2>WANGZAI!</h2>
+              <p>
+                In the end, Vivian chose this red-and-white fish.
+                We named him Wangzai because he looks like the
+                Wangzai mascot.
+              </p>
+              <img
+                id="brand-photo"
+                src="images/wangzai-brand.jpg"
+                alt="The Wangzai brand mascot"
+              >
+            </div>
+          </div>
+        </details>
+
+      </div>
+
+      <!-- Afternoon in DUMBO -->
+      <div id="dumbo" class="diary-entry blue-entry">
+        <p class="time">AFTERNOON</p>
+        <h2>A walk in DUMBO.</h2>
+
+        <p class="entry-text">
+          After Wangzai moved into his new home, we went for a walk in
+          DUMBO. The weather was very nice, and the sky was blue.
+        </p>
+
+        <img
+          class="wide-photo"
+          src="images/dumbo.JPG"
+          alt="A sunny waterfront view in DUMBO"
+        >
+        <p class="photo-note">No plans. Just sunshine.</p>
+      </div>
+
+      <!-- Night -->
+      <div id="night" class="diary-entry night-entry">
+        <p class="time">NIGHT</p>
+        <h2>Our evening.</h2>
+
+        <p class="entry-text">
+          At night, we took photo booth pictures and ate Korean food.
+          Then we went home and ended our busy day.
+        </p>
+
+        <div class="night-photos">
+          <div class="night-card">
+            <img src="images/photo-booth.JPG" alt="Photo booth pictures with my friend">
+            <p>Four little memories.</p>
+          </div>
+
+          <div class="night-card">
+            <img src="images/korean-food.JPG" alt="Korean food at dinner">
+            <p>Something spicy.</p>
+          </div>
+
+          <div class="night-card">
+            <img src="images/ride-home.JPG" alt="A quiet moment on the way home">
+            <p>On the way home.</p>
+          </div>
+        </div>
+
+        <p class="ending">
+          It was a busy but happy day with my friends. It was also
+          Wangzai's first day with Vivian.
+        </p>
+      </div>
+    </main>
+  </body>
+</html>

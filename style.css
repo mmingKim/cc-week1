@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    background-color: #f3ead9;
+    color: #29231f;
+    font-family: Georgia, serif;
+}
+
+/* Page width */
+.cover, .menu, main {
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Cover */
+.cover {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-top: 8px solid #c83d31;
+    border-bottom: 1px solid #29231f;
+}
+
+.small-title, .time, .choice-card h3 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.small-title, .time { font-size: 12px; }
+
+h1 {
+    margin: 40px 0 20px;
+    font-size: 70px;
+    line-height: 65px;
+}
+
+h1 span { color: #c83d31; font-style: italic; }
+
+.introduction {
+    width: 45%;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+#cover-photo, .wide-photo {
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+}
+
+#cover-photo { border: 10px solid #fffaf0; }
+#cover-note, .photo-note { text-align: center; font-style: italic; }
+
+/* Menu */
+.menu {
+    margin-bottom: 70px;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 1px solid #29231f;
+}
+
+.menu a {
+    display: inline-block;
+    margin: 0 20px;
+    color: #29231f;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Diary sections */
+.diary-entry {
+    margin-bottom: 100px;
+    padding-top: 25px;
+    border-top: 4px solid #c83d31;
+}
+
+.time { margin: 0; color: #c83d31; }
+h2 { margin: 12px 0 20px; font-size: 48px; }
+
+.entry-text {
+    width: 70%;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* Fish pictures */
+.fish-collage {
+    position: relative;
+    height: 520px;
+    margin-top: 35px;
+}
+
+.choice-card {
+    position: absolute;
+    width: 26%;
+    padding: 12px;
+    background-color: #fffaf0;
+}
+
+.choice-card img, .night-card img { width: 100%; }
+.choice-card h3 { margin: 10px 0 4px; color: #c83d31; }
+.choice-card p, .night-card p { margin-top: 0; font-style: italic; }
+#my-choice { top: 0; left: 18%; }
+#my-choice-2 { top: 0; right: 18%; }
+
+/* Click to see Wangzai */
+details {
+    margin-top: 35px;
+    padding-bottom: 25px;
+    background-color: #c83d31;
+    color: #fffaf0;
+    border: 2px solid #29231f;
+}
+
+summary {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.answer { text-align: center; }
+#wangzai-photo { display: inline-block; width: 32%; margin: 20px 30px 20px 0; border: 8px solid #fffaf0; }
+.answer-text { display: inline-block; width: 42%; margin: 20px 0; text-align: center; }
+.answer-text h2 { color: white; font-size: 36px; }
+.answer-text p { line-height: 25px; }
+#brand-photo { width: 100px; border: 5px solid #fffaf0; }
+
+/* DUMBO and night */
+.blue-entry { border-top-color: #427aa1; }
+.blue-entry .time { color: #427aa1; }
+
+.night-entry {
+    padding: 35px;
+    background-color: #29231f;
+    color: #fffaf0;
+    border-top-color: #e8a4a4;
+}
+
+.night-entry .time { color: #e8a4a4; }
+.night-photos { text-align: center; }
+.night-card { display: inline-block; width: 22%; margin: 20px 4%; }
+.night-card img { border: 6px solid #fffaf0; }
+
+.ending {
+    margin-top: 35px;
+    padding-top: 20px;
+    border-top: 1px solid #fffaf0;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+}
+
